@@ -1,0 +1,497 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 175.50
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 380.25
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "price": 140.75
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc.",
+    "price": 145.30
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "price": 495.80
+  },
+  {
+    "symbol": "META",
+    "name": "Meta Platforms Inc.",
+    "price": 325.60
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla Inc.",
+    "price": 242.50
+  },
+  {
+    "symbol": "BRK.B",
+    "name": "Berkshire Hathaway Inc.",
+    "price": 365.40
+  },
+  {
+    "symbol": "JPM",
+    "name": "JPMorgan Chase & Co.",
+    "price": 155.20
+  },
+  {
+    "symbol": "V",
+    "name": "Visa Inc.",
+    "price": 245.75
+  },
+  {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "price": 160.30
+  },
+  {
+    "symbol": "WMT",
+    "name": "Walmart Inc.",
+    "price": 162.45
+  },
+  {
+    "symbol": "PG",
+    "name": "Procter & Gamble Co.",
+    "price": 155.80
+  },
+  {
+    "symbol": "MA",
+    "name": "Mastercard Inc.",
+    "price": 420.15
+  },
+  {
+    "symbol": "UNH",
+    "name": "UnitedHealth Group Inc.",
+    "price": 485.90
+  },
+  {
+    "symbol": "HD",
+    "name": "Home Depot Inc.",
+    "price": 325.40
+  },
+  {
+    "symbol": "BAC",
+    "name": "Bank of America Corp.",
+    "price": 32.85
+  },
+  {
+    "symbol": "XOM",
+    "name": "Exxon Mobil Corporation",
+    "price": 108.75
+  },
+  {
+    "symbol": "ORCL",
+    "name": "Oracle Corporation",
+    "price": 118.60
+  },
+  {
+    "symbol": "CVX",
+    "name": "Chevron Corporation",
+    "price": 152.30
+  },
+  {
+    "symbol": "LLY",
+    "name": "Eli Lilly and Company",
+    "price": 565.20
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc.",
+    "price": 875.30
+  },
+  {
+    "symbol": "COST",
+    "name": "Costco Wholesale Corporation",
+    "price": 725.45
+  },
+  {
+    "symbol": "ABBV",
+    "name": "AbbVie Inc.",
+    "price": 168.90
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc.",
+    "price": 172.35
+  },
+  {
+    "symbol": "KO",
+    "name": "The Coca-Cola Company",
+    "price": 62.15
+  },
+  {
+    "symbol": "ADBE",
+    "name": "Adobe Inc.",
+    "price": 495.80
+  },
+  {
+    "symbol": "CRM",
+    "name": "Salesforce Inc.",
+    "price": 258.40
+  },
+  {
+    "symbol": "MRK",
+    "name": "Merck & Co. Inc.",
+    "price": 102.70
+  },
+  {
+    "symbol": "TMO",
+    "name": "Thermo Fisher Scientific Inc.",
+    "price": 518.25
+  },
+  {
+    "symbol": "NFLX",
+    "name": "Netflix Inc.",
+    "price": 445.60
+  },
+  {
+    "symbol": "ABT",
+    "name": "Abbott Laboratories",
+    "price": 108.35
+  },
+  {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices Inc.",
+    "price": 142.80
+  },
+  {
+    "symbol": "CSCO",
+    "name": "Cisco Systems Inc.",
+    "price": 52.45
+  },
+  {
+    "symbol": "ACN",
+    "name": "Accenture plc",
+    "price": 345.70
+  },
+  {
+    "symbol": "TXN",
+    "name": "Texas Instruments Inc.",
+    "price": 186.90
+  },
+  {
+    "symbol": "NKE",
+    "name": "Nike Inc.",
+    "price": 98.75
+  },
+  {
+    "symbol": "DHR",
+    "name": "Danaher Corporation",
+    "price": 245.60
+  },
+  {
+    "symbol": "INTC",
+    "name": "Intel Corporation",
+    "price": 28.45
+  },
+  {
+    "symbol": "VZ",
+    "name": "Verizon Communications Inc.",
+    "price": 42.80
+  },
+  {
+    "symbol": "CMCSA",
+    "name": "Comcast Corporation",
+    "price": 42.15
+  },
+  {
+    "symbol": "DIS",
+    "name": "The Walt Disney Company",
+    "price": 98.35
+  },
+  {
+    "symbol": "PM",
+    "name": "Philip Morris International Inc.",
+    "price": 118.90
+  },
+  {
+    "symbol": "UPS",
+    "name": "United Parcel Service Inc.",
+    "price": 152.40
+  },
+  {
+    "symbol": "QCOM",
+    "name": "QUALCOMM Inc.",
+    "price": 168.75
+  },
+  {
+    "symbol": "HON",
+    "name": "Honeywell International Inc.",
+    "price": 198.60
+  },
+  {
+    "symbol": "UNP",
+    "name": "Union Pacific Corporation",
+    "price": 242.30
+  },
+  {
+    "symbol": "MS",
+    "name": "Morgan Stanley",
+    "price": 95.45
+  },
+  {
+    "symbol": "GS",
+    "name": "The Goldman Sachs Group Inc.",
+    "price": 425.80
+  },
+  {
+    "symbol": "NEE",
+    "name": "NextEra Energy Inc.",
+    "price": 78.25
+  },
+  {
+    "symbol": "RTX",
+    "name": "RTX Corporation",
+    "price": 102.40
+  },
+  {
+    "symbol": "T",
+    "name": "AT&T Inc.",
+    "price": 21.85
+  },
+  {
+    "symbol": "IBM",
+    "name": "International Business Machines",
+    "price": 185.70
+  },
+  {
+    "symbol": "LOW",
+    "name": "Lowe's Companies Inc.",
+    "price": 245.90
+  },
+  {
+    "symbol": "CAT",
+    "name": "Caterpillar Inc.",
+    "price": 325.45
+  },
+  {
+    "symbol": "SPGI",
+    "name": "S&P Global Inc.",
+    "price": 442.30
+  },
+  {
+    "symbol": "BMY",
+    "name": "Bristol-Myers Squibb Company",
+    "price": 58.90
+  },
+  {
+    "symbol": "INTU",
+    "name": "Intuit Inc.",
+    "price": 625.40
+  },
+  {
+    "symbol": "GE",
+    "name": "General Electric Company",
+    "price": 162.75
+  },
+  {
+    "symbol": "C",
+    "name": "Citigroup Inc.",
+    "price": 62.30
+  },
+  {
+    "symbol": "BLK",
+    "name": "BlackRock Inc.",
+    "price": 825.60
+  },
+  {
+    "symbol": "AMGN",
+    "name": "Amgen Inc.",
+    "price": 285.45
+  },
+  {
+    "symbol": "BA",
+    "name": "The Boeing Company",
+    "price": 178.90
+  },
+  {
+    "symbol": "DE",
+    "name": "Deere & Company",
+    "price": 385.25
+  },
+  {
+    "symbol": "MDT",
+    "name": "Medtronic plc",
+    "price": 88.60
+  },
+  {
+    "symbol": "AXP",
+    "name": "American Express Company",
+    "price": 225.80
+  },
+  {
+    "symbol": "PLD",
+    "name": "Prologis Inc.",
+    "price": 128.45
+  },
+  {
+    "symbol": "SBUX",
+    "name": "Starbucks Corporation",
+    "price": 98.70
+  },
+  {
+    "symbol": "GILD",
+    "name": "Gilead Sciences Inc.",
+    "price": 82.35
+  },
+  {
+    "symbol": "MMM",
+    "name": "3M Company",
+    "price": 128.90
+  },
+  {
+    "symbol": "LRCX",
+    "name": "Lam Research Corporation",
+    "price": 785.40
+  },
+  {
+    "symbol": "ADI",
+    "name": "Analog Devices Inc.",
+    "price": 228.75
+  },
+  {
+    "symbol": "TJX",
+    "name": "The TJX Companies Inc.",
+    "price": 98.20
+  },
+  {
+    "symbol": "CI",
+    "name": "Cigna Corporation",
+    "price": 325.60
+  },
+  {
+    "symbol": "SYK",
+    "name": "Stryker Corporation",
+    "price": 325.85
+  },
+  {
+    "symbol": "CB",
+    "name": "Chubb Limited",
+    "price": 268.40
+  },
+  {
+    "symbol": "REGN",
+    "name": "Regeneron Pharmaceuticals Inc.",
+    "price": 885.70
+  },
+  {
+    "symbol": "MDLZ",
+    "name": "Mondelez International Inc.",
+    "price": 72.35
+  },
+  {
+    "symbol": "ISRG",
+    "name": "Intuitive Surgical Inc.",
+    "price": 445.90
+  },
+  {
+    "symbol": "PGR",
+    "name": "The Progressive Corporation",
+    "price": 215.60
+  },
+  {
+    "symbol": "SO",
+    "name": "The Southern Company",
+    "price": 88.25
+  },
+  {
+    "symbol": "ZTS",
+    "name": "Zoetis Inc.",
+    "price": 182.40
+  },
+  {
+    "symbol": "DUK",
+    "name": "Duke Energy Corporation",
+    "price": 108.75
+  },
+  {
+    "symbol": "BDX",
+    "name": "Becton Dickinson and Company",
+    "price": 245.30
+  },
+  {
+    "symbol": "BSX",
+    "name": "Boston Scientific Corporation",
+    "price": 78.95
+  },
+  {
+    "symbol": "NOC",
+    "name": "Northrop Grumman Corporation",
+    "price": 485.20
+  },
+  {
+    "symbol": "MMC",
+    "name": "Marsh & McLennan Companies",
+    "price": 205.60
+  },
+  {
+    "symbol": "TGT",
+    "name": "Target Corporation",
+    "price": 148.75
+  },
+  {
+    "symbol": "EL",
+    "name": "The Estée Lauder Companies",
+    "price": 128.40
+  },
+  {
+    "symbol": "SHW",
+    "name": "The Sherwin-Williams Company",
+    "price": 325.80
+  },
+  {
+    "symbol": "CME",
+    "name": "CME Group Inc.",
+    "price": 218.45
+  },
+  {
+    "symbol": "MO",
+    "name": "Altria Group Inc.",
+    "price": 52.70
+  },
+  {
+    "symbol": "CL",
+    "name": "Colgate-Palmolive Company",
+    "price": 95.35
+  },
+  {
+    "symbol": "ITW",
+    "name": "Illinois Tool Works Inc.",
+    "price": 258.90
+  },
+  {
+    "symbol": "EOG",
+    "name": "EOG Resources Inc.",
+    "price": 128.65
+  },
+  {
+    "symbol": "APH",
+    "name": "Amphenol Corporation",
+    "price": 68.40
+  },
+  {
+    "symbol": "USB",
+    "name": "U.S. Bancorp",
+    "price": 48.75
+  },
+  {
+    "symbol": "WM",
+    "name": "Waste Management Inc.",
+    "price": 208.30
+  },
+  {
+    "symbol": "MCO",
+    "name": "Moody's Corporation",
+    "price": 442.85
+  }
+]
