@@ -1,8 +1,18 @@
-version: '3.8'
-
 services:
   backend:
     build: ./backend
+    expose:
+      - "3000"
+    environment:
+      - CORS_ORIGIN=http://localhost
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     ports:
-      - "3000:3000"
+      - "80:80"
+    depends_on:
+      - backend
     restart: unless-stopped

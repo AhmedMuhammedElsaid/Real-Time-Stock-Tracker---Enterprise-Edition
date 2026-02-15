@@ -61,20 +61,42 @@ Instead of opting for heavy external libraries, we implemented a custom **`useVi
 
 ## 📋 Running the Project
 
-### Environment Prerequisites
-- Docker & Docker Compose
-- Node.js v18+ (LTS recommended)
+### 🐳 Production Deployment (Docker Compose)
+The simplest way to deploy — a single command runs both frontend and backend:
 
-### Step-by-Step Launch
+```bash
+docker compose up --build
+```
+> Application available at: `http://localhost` (port 80)
+
+The frontend nginx container serves the SPA and reverse-proxies API/WebSocket requests to the Go backend internally.
+
+### 💻 Local Development
 1. **Backend**:
    ```bash
-   cd backend && docker-compose up
+   docker compose up backend
    ```
 2. **Frontend**:
    ```bash
    cd frontend && npm install && npm run dev
    ```
 > Application available at: `http://localhost:5173`
+
+### ⚙️ Environment Variables
+
+| Variable | Default (Dev) | Description |
+|---|---|---|
+| `VITE_API_URL` | `http://localhost:3000` | Backend REST API base URL |
+| `VITE_WS_URL` | `ws://localhost:3000/realtime-prices-ws` | WebSocket endpoint |
+| `CORS_ORIGIN` | `*` | Allowed origin for backend CORS |
+
+> **Note**: In production (Docker Compose), the frontend `.env.production` leaves these empty so URLs are auto-derived from the nginx reverse proxy — no manual configuration needed.
+
+### ☁️ Cloud Deployment
+This project is ready for one-click deployment on platforms that support Docker:
+- **Railway** — Connect GitHub repo, deploy as Docker services
+- **Render** — Frontend as Static Site, Backend as Web Service
+- **DigitalOcean App Platform** — Docker-native deployment
 
 ---
 
