@@ -1,0 +1,14 @@
+.error-boundary-fallback {
+  padding: 2rem;
+  margin: 1rem;
+  border: 1px solid #feb2b2;
+  border-radius: 8px;
+  background-color: #fff5f5;
+  color: #c53030;
+  text-align: center;
+}
+
+.error-boundary-content h2 {
+  margin-bottom: 0.5rem;
+}
+

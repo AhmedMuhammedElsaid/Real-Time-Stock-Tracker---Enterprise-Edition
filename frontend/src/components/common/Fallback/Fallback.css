@@ -1,0 +1,8 @@
+.fallback-container {
+  text-align: center;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-weight: 500;
+}

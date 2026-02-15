@@ -1,0 +1,75 @@
+.stock-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.stock-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary);
+}
+
+.stock-card:focus-visible {
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.4);
+  border-color: var(--primary);
+}
+
+.stock-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stock-symbol {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.stock-name {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.stock-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-main);
+}
+
+/* Flash Animations */
+.flash-up {
+  background-color: rgba(56, 161, 105, 0.05) !important;
+  border-color: var(--success) !important;
+}
+
+.flash-up .stock-price {
+  color: var(--success);
+}
+
+.flash-down {
+  background-color: rgba(229, 62, 62, 0.05) !important;
+  border-color: var(--error) !important;
+}
+
+.flash-down .stock-price {
+  color: var(--error);
+}
+
+.skeleton-card {
+  pointer-events: none;
+  background-color: var(--bg-card);
+}
