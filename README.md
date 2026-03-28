@@ -1,4 +1,4 @@
-# 💹 Real-Time Stock Tracker - Enterprise Edition
+# 💹 Real-Time Stock Tracker - Enterprise Edition V1.0
 
 A high-performance, resilient financial dashboard engineered to handle live market data streams with professional-grade precision. This project showcases a robust React 19 architecture, custom-built virtualization, and self-healing real-time connectivity.
 
